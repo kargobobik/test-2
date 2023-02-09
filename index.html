@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Hero Academia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="myheroacademia.jpg" alt="my hero academia" class="avatar" />
+        <div class="firsttext">
+          <h1>My Hero Academia</h1>
+          <p>
+            Четырнадцатилетний Идзуку Мидория рано осознал, что люди не
+            рождаются равными. А пришло это понимание, когда его начали дразнить
+            одноклассники, одарённые особой силой. Несмотря на то, что
+            большинство людей в этом мире рождаются с необычными способностями,
+            Идзуку оказался среди тех немногих, кто напрочь их лишён. Однако это
+            не стало помехой для мальчика в стремлении стать таким же
+            легендарным героем, как Всемогущий. Для осуществления мечты Идзуку
+            не без помощи своего кумира поступает в самую престижную академию
+            героев — Юэй. Но это, очевидно, лишь начало его удивительных
+            приключений.
+          </p>
+        </div>
+      </div>
+      <!-- меняем таблицу на div -->
+      <br />
+      <hr />
+      <br />
+
+      <div class="card bg-colored">
+        <h2>Жанры</h2>
+        <ul type="disc" class="list">
+          <li>Экшен</li>
+          <li>Школа</li>
+          <li>Супер сила</li>
+          <li>Сёнен</li>
+        </ul>
+      </div>
+      <br />
+      <!-- ol li это список -->
+
+      <div class="card bg-colored temp">
+        <h2>Информация</h2>
+        <div class="tempor">
+          <table class="table">
+            <!-- cellpading - отступы внешние, cellspacing - Отступы между элементами таблицы -->
+            <!-- <caption> -->
+            <!-- <strong>ПРОГРЕСС</strong> -->
+            <!-- </caption> -->
+            <!-- название таблицы -->
+
+            <tr>
+              <td>Список сезонов</td>
+              <td>Премьера сезона</td>
+              <td>Количество серий</td>
+            </tr>
+            <tr>
+              <td>Первый сезон</td>
+              <td>3 апреля 2016 года</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>Второй сезон</td>
+              <td>25 марта 2017 года</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Третий сезон</td>
+              <td>7 апреля 2018 года</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Четвертый сезон</td>
+              <td>2 октября 2019 года</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Пятый сезон</td>
+              <td>27 марта 2021 года</td>
+              <td>25</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="card bg-colored">
+        <h2>Цитаты Всемогущего</h2>
+        <ul type disc class="citates">
+          <li>
+            Я улыбаюсь, чтобы показать давление героев и обмануть внутренний
+            страх.
+          </li>
+          <li>
+            Если вы чувствуете, что приближаетесь к своему пределу, вспомните,
+            по какой причине вы сжимаете кулаки ... вспомните, почему вы пошли
+            по этому пути, и позвольте этому воспоминанию унести вас за пределы
+            вашего предела.
+          </li>
+          <li>
+            Когда нет ничего, что можно было бы достичь, принять вызов в такое
+            время, несомненно, является признаком настоящего героя!
+          </li>
+          <li>Самые надутые эго зачастую самые хрупкие.</li>
+          <li>
+            Независимо от того, выиграете вы или проиграете, вы всегда сможете
+            выйти вперед, извлекая уроки из этого опыта.
+          </li>
+          <li>Мечтать неплохо. Но вы также должны учитывать, что реально.</li>
+          <li>
+            Те, кто всегда стремится к вершине, и те, кто нет. Эта небольшая
+            разница в отношениях будет иметь большое влияние, когда вы войдете в
+            общество.
+          </li>
+        </ul>
+      </div>
+
+      <div class="temp">
+        <h2>Мнение об аниме</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="hours">Оценка</label>
+              <input type="text" id="hours" placeholder="От 2 до 24 часов" />
+            </div>
+
+            <!-- <div class="form-group"> -->
+            <!-- <label for="data">Выберите дату</label> -->
+            <!-- <input type="date" id="data" placeholder="От 2 до 24 часов" /> -->
+            <!-- </div> -->
+
+            <!-- <br> - элемент переноса строки -->
+            <!-- placeholder - подсказка в окне ввода  -->
+
+            <div class="form-group">
+              <label for="number">Номер для связи</label>
+              <input type="text" id="number" placeholder="+7...." />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Пожелания</label>
+            <textarea name="text" id="text" cols="30" rows="4"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Отправить отзыв" />
+        </form>
+      </div>
+      <!-- 
+
+        <div class="istochniki">
+          <h4>Источники</h4>
+          <a
+            href="https://shikimori.one/animes/31964-boku-no-hero-academia"
+            target="_blank"
+          >
+            Shikimori</a
+          >
+          |
+          <a
+            href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%8F_%D0%B3%D0%B5%D1%80%D0%BE%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F"
+            target="_blank"
+          >
+            Wiki</a
+          >
+        </div> 
+       -->
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
